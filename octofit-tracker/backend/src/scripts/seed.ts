@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { Activity, LeaderboardEntry, Team, User, Workout } from '../models';
+import { Activity, LeaderboardEntry, Team, User, Workout } from '../models/server';
 
 const connectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/octofit_db';
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { Activity, LeaderboardEntry, Team, User, Workout } from '../models';
+import { Activity, LeaderboardEntry, Team, User, Workout } from '../models/server';
 
 const router = Router();
 
