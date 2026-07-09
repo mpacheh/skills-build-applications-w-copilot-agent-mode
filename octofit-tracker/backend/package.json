@@ -11,9 +11,9 @@
     "typescript": "^7.0.2"
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "tsx src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/server.js"
   },
   "main": "dist/index.js",
   "type": "commonjs",
